@@ -1,0 +1,21 @@
+# Site settings
+title: On Becoming Better
+header-img: img/home-bg.png
+email: salvatore.mccarty@gmail.com
+copyright_name: SalMac86
+description: > # this means to ignore newlines until "baseurl:"
+  Or How I learned to "Just Do It!"
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  SalMac86
+learn_profile: SalMac86
+email_username: salvatore.mccarty@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
